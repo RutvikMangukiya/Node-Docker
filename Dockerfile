@@ -1,4 +1,5 @@
-FROM node:20
+## previous version node 20
+FROM node:23-slim    
 
 WORKDIR /app
 
